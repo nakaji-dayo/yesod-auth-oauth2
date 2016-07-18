@@ -3,6 +3,10 @@ flags:
     network-uri: true
 packages:
 - '.'
-resolver: lts-3.5
+# - location:
+#     git: https://github.com/nakaji-dayo/hoauth2.git
+#     commit: 408b65b8f5c4de6dc6793359fe02890c77ebce22
+- '../hoauth2'
+resolver: lts-6.2
 extra-deps:
 - load-env-0.1.1
